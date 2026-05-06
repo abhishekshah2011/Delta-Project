@@ -100,3 +100,6 @@ app.use((err, req, res, next) => {
 app.listen(8080, () => {
     console.log("server is listening to port 8080");
 });
+
+// Export the app for Vercel
+module.exports = app;
